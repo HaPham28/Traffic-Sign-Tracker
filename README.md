@@ -1,10 +1,12 @@
-#Traffic Sign Tracker
+# Traffic Sign Tracker
 This project is to create a Traffic Sign Tracker to detect 4 classes of traffic signs: Stop, Yield, Speed Limit and Pedestrian Crossing.
 The program can also read the numbers of all speed limit signs with 2 digit.
 The program is tested on a VM with ROS-kinetic(2016)
-##Installation
+
+## Installation
 This repository assumes that the Robot Operating System (ROS-kinetic 2016) has already been installed on your environment
-##Running
+
+## Running
 To set up and run the program, please follow the steps below:
 
 1) On your VM, open the terminal and type the following command lines:
