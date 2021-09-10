@@ -20,8 +20,9 @@ $ cd src
 $ git clone https://github.tamu.edu/autodrive-common/team8-404-traffic-signs.git
 ```
 2) Download provided weights file from https://drive.google.com/file/d/1RJGxCSKvLlnsmcUkRTh_6GLQVMAUEwre/view?usp=sharing and put file in the following repository:
+```bash
 darknet_ros/darknet_ros/yolo_network_config/weights
-
+```
 3) Make pkg with the following commands:
 ```bash
 $ cd catkin_ws
