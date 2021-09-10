@@ -23,10 +23,12 @@ $ git clone https://github.tamu.edu/autodrive-common/team8-404-traffic-signs.git
 darknet_ros/darknet_ros/yolo_network_config/weights
 
 3) Make pkg with the following commands:
+```bash
 $ cd catkin_ws
 $ catkin_make
-
+```
 4) Run the following commands in separate terminals:
+```bash
 Terminal 1:
 $ roscore
 Terminal 2:
@@ -34,3 +36,4 @@ $ rostopic echo objects
 Terminal 3:
 $ source ~/catkin_ws/devel/setup.bash
 $ roslaunch darknet_ros yolov4-tiny-obj.launch
+```
