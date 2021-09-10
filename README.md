@@ -10,13 +10,15 @@ This repository assumes that the Robot Operating System (ROS-kinetic 2016) has a
 To set up and run the program, please follow the steps below:
 
 1) On your VM, open the terminal and type the following command lines:
+
+```bash
 $ mkdir -p catkin_ws/src && cd catkin_ws/src
 $ catkin_init_workspace
 $ cd ../
 $ catkin_make
 $ cd src
 $ git clone https://github.tamu.edu/autodrive-common/team8-404-traffic-signs.git
-
+```
 2) Download provided weights file from https://drive.google.com/file/d/1RJGxCSKvLlnsmcUkRTh_6GLQVMAUEwre/view?usp=sharing and put file in the following repository:
 darknet_ros/darknet_ros/yolo_network_config/weights
 
