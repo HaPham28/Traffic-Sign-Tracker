@@ -1,0 +1,15 @@
+yolo_model:
+
+  config_file:
+    name: yolov4-tiny-obj.cfg
+  weight_file:
+    name: yolov4-tiny-obj_5000.weights
+  threshold:
+    value: 0.51
+  detection_classes:
+    names:
+      - stop
+      - yield
+      - pedestrian crossing
+      - speed limit
+      
